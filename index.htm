@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* Animação dos cards */
+      .card {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .card.animado {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+</head>
+<body>
+
+
+
+    
+<header>
+  <nav>
+    <h2>Marcelo Albuquerque</h2>
+    <div class="nav-links">
+      <a href="#inicio">Início</a>
+      <a href="#projetos">Projetos</a>
+      <a href="https://wa.me/558881862286">Contato</a>
+    </div>
+  </nav>
+</header>
+
+<main id="inicio">
+  <section class="intro">
+    <div class="content">
+      <p>
+        👋 Olá! Me chamo Marcelo e sou estudante de Análise e Desenvolvimento de Sistemas. Sou apaixonado por tecnologia 💻 e curioso por entender como sistemas funcionam e impactam a vida das pessoas.
+        Durante a faculdade, desenvolvi habilidades em programação, desenvolvimento web, bancos de dados e controle de versão com Git 🔧. Trabalho com linguagens como Java, Python, HTML, CSS e JavaScript.
+        🚀 Sou dedicado, persisten te e estou sempre buscando aprender algo novo. Gosto de trabalhar em equipe, encarar desafios e encontrar soluções criativas para problemas reais.
+        🎯 Meu objetivo é me tornar um desenvolvedor capaz de contribuir com soluções tecnológicas que realmente façam a diferença.
+      </p>
+      <img src="/src/150943273.jpg" alt="Foto Pessoal" />
+    </div>
+  </section>
+
+  <section class="color-table">
+    <h2>Paleta de Cores do Site</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Cor</th>
+          <th>Código HEX</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="cor1"><td>Azul Escuro</td><td>#1d3557</td></tr>
+        <tr class="cor2"><td>Azul Médio</td><td>#457b9d</td></tr>
+        <tr class="cor3"><td>Azul Claro</td><td>#a8dadc</td></tr>
+        <tr class="cor4"><td>Branco Suave</td><td>#f1faee</td></tr>
+        <tr class="cor5"><td>Vermelho Destaque</td><td>#e63946</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Front-end</h2>
+    <div class="tecnologias">
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          alt="HTML"
+        />
+        <p>HTML</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          alt="CSS"
+        />
+        <p>CSS</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript"
+        />
+        <p>JavaScript</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          alt="React"
+        />
+        <p>React</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+          alt="Bootstrap"
+        />
+        <p>Bootstrap</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Back-end</h2>
+    <div class="tecnologias">
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+          alt="Java"
+        />
+        <p>Java</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          alt="Python"
+        />
+        <p>Python</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          alt="Node.js"
+        />
+        <p>Node.js</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+          alt="C"
+        />
+        <p>C</p>
+      </div>
+      <div class="card">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+          alt="C++"
+        />
+        <p>C++</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Formação</h2>
+    <p>Graduando em Análise e Desenvolvimento de Sistemas (ADS)</p>
+  </section>
+
+  <section>
+    <h2>Experiência Técnica</h2>
+    <p><strong>Curso Técnico em Informática - EEEP Venceslau Vieira Batista (2022-2024)</strong></p>
+    <ul class="experiencia-lista">
+      <li>Fundamentos de Informática — 160 horas</li>
+      <li>Programação de Computadores — 320 horas</li>
+      <li>Redes de Computadores — 160 horas</li>
+      <li>Sistemas Operacionais — 160 horas</li>
+      <li>Manutenção e Suporte Técnico — 160 horas</li>
+      <li>Banco de Dados — 160 horas</li>
+      <li>Desenvolvimento Web — 160 horas</li>
+      <li>Projeto Integrador — 120 horas</li>
+    </ul>
+  </section>
+
+ <section><h2>Pontos Fortes</h2>
+  <ul>
+    <li>Persistência</li>
+    <li>Trabalho em equipe</li>
+    <li>Interesse em aprender</li>
+    <li>Raciocínio lógico aguçado</li>
+    <li>Facilidade de aprendizado com novas tecnologias</li>
+    <li>Boa comunicação com colegas e equipes</li>
+    <li>Organização e gestão de tempo</li>
+    <li>Proatividade na resolução de problemas</li>
+    <li>Atenção aos detalhes no código</li>
+    <li>Comprometimento com prazos e entregas</li>
+    <li>Curiosidade e sede por conhecimento</li>
+    <li>Capacidade de adaptação a diferentes projetos</li>
+    <li>Espírito colaborativo e mente aberta para feedback</li>
+  </ul>
+</section>
+
+  <section>
+    <h2>Aspirações</h2>
+    <p>Busco aprimorar continuamente minhas habilidades em desenvolvimento, com foco na criação de soluções eficientes e inovadoras. Meu objetivo é atuar de forma integral, dominando tanto o front-end quanto o back-end, para entregar projetos completos e de alta qualidade.
+    Almejo colaborar em equipes que valorizem a excelência, a inovação e o trabalho colaborativo, contribuindo para o desenvolvimento de produtos que causem impacto positivo na sociedade. Acredito que o aprendizado constante é fundamental para acompanhar as rápidas transformações tecnológicas e para oferecer sempre o melhor resultado.</p>
+  </section>
+</main>
+
+<footer id="contato">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Marcelo Albuquerque</h3>
+      <p><i>Transformando ideias em soluções digitais com dedicação e criatividade.</i></p>
+      <p><strong>Vamos nos conectar!</strong></p>
+      <div class="social-icons">
+        <a href="https://github.com/AlbuquerqueMarcelo" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/ciello.xs/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/marcelo-albuquerque-36bb40332"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/5588812286" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>Links rápidos</h4>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contato</h4>
+      <p>Email: marcelo.albuquerque09@aluno.ifce.edu.br</p>
+      <p>Telefone: (88) 8122-8286</p>
+      <p>Endereço: Boa Viagem, CE - Brasil</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Marcelo Albuquerque. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script>
+  // Animação dos cards ao carregar a página
+  window.addEventListener('load', () => {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach((card, index) => {
+      setTimeout(() => {
+        card.classList.add('animado');
+      }, index * 150);
+    });
+  });
+</script>
+
+</body>
+</html>
+
